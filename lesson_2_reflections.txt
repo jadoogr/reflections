@@ -8,3 +8,5 @@ This is the obvious case when we have made changes related to only one topic/tas
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 We could use branches when we want to create a new version of our software , but we also want to preserve the orignal version of our software due to some reasons, or when we want to run some experiments on the current codebase, like proceeding along a new idea, in which case git would provide us a worry free way of doing so by the means of branches. Also branches woul help us preserve our orignal version of the software.
+How do the diagrams help you visualize the branch structure?
+They give us a clear idea of the whole picture, by clearly implying from which commit we can reach to a given commit.
