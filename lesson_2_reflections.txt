@@ -1,0 +1,2 @@
+What happens when you initialize a repository? Why do you need to do it?
+When we initialize a git repository using git init, a directory wit the name .git is added to the repository, we need it because it facitilates all the functions of git for us.
