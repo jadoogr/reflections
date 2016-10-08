@@ -10,3 +10,9 @@ What are some situations when branches would be helpful in keeping your history 
 We could use branches when we want to create a new version of our software , but we also want to preserve the orignal version of our software due to some reasons, or when we want to run some experiments on the current codebase, like proceeding along a new idea, in which case git would provide us a worry free way of doing so by the means of branches. Also branches woul help us preserve our orignal version of the software.
 How do the diagrams help you visualize the branch structure?
 They give us a clear idea of the whole picture, by clearly implying from which commit we can reach to a given commit.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Merging two branches combines the changes made on the two branches, it does so by setting the head of both the branches same(diargam view), which is head of either one of them. We represent it in this way because it specifies which commit came from which branch.
+
+What are the pros and cons of Git's automatic merging vs always doing merges manually?
+When same part is modified in a file in two different branches a merge creates a conflict. In git the conflict is resolved manually. The pros of manual merging is that the user who is well aware of the code and knows what function it needs to perform can resolve the conflict in the required manner. In case of automatic resolution of conflicts the desired function may not be achieved because after all it will bbe resolved by he machine.
