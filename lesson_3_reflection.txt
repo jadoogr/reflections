@@ -9,3 +9,6 @@ Forking is making a copy of a repository on github in github only. Cloning is ma
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 So that we can get a orin/master branch to merge into master branch. Without having a local copy of the last known state of remote we wouldn't have been able to determine the origin/master branch.
+
+How would you collaborate without Git or Github? What would be easier, and what would be harder?
+We will have to exchange code via other sources for instance mail ,etc. Comparing code will be a very difficult task, thus merging and other functions of git wich depend on the differences of the two files will be very difficult. I would definately like to use git.
