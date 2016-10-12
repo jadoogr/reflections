@@ -12,3 +12,6 @@ So that we can get a orin/master branch to merge into master branch. Without hav
 
 How would you collaborate without Git or Github? What would be easier, and what would be harder?
 We will have to exchange code via other sources for instance mail ,etc. Comparing code will be a very difficult task, thus merging and other functions of git wich depend on the differences of the two files will be very difficult. I would definately like to use git.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+When I am adding a new feature into the program I would like to have a new branch so that when I push it onto Github everybody will know about it and if there is a mistake the main project won't broke down
